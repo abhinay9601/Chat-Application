@@ -1,0 +1,55 @@
+.size-fix{
+  width: 10vw ;
+}
+.avatar-img{
+  width: 4vw;
+  border-radius: 100px;
+  margin-right: 1rem;
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+}
+.d-flexs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.scroll::-webkit-scrollbar{
+  display: none;
+  }
+  @media screen and (max-width:1200px){
+    .fullwidth{
+      width: 100vw !important;
+      margin:0;
+    }
+    .setheight{
+      height:83vh !important;
+    }
+    .setwidth{
+      width:100vw !important;
+    }
+    .setimg{
+      width: 50px !important;
+    }
+    .name{
+      font-size: 1rem !important;
+      margin-left: 70px !important;
+      
+    }
+    .marg{
+      margin-left: 70px !important;
+      
+    }
+    .setmargin{
+      margin-left: 70px !important;
+    }
+    .setMargins{
+      margin-left: 250px !important;
+    }
+    .wid{
+      margin-left: 70px !important;
+    font-size: 1rem !important;
+    }
+    }

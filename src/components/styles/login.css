@@ -1,0 +1,45 @@
+.f-body {
+  background-color: #ebf1f7;
+}
+
+.container {
+  /* background-color: rgb(19, 19, 19); */
+  background-color: #ebf1f7;
+  color: #fff;
+  width: 100%;
+  overflow: visible;
+  /* margin: 0px; */
+}
+.cards {
+  background-color: #ffffff;
+  /* background-color: rgb(27, 27, 27); */
+  color: rgb(27, 27, 27);
+  border-radius: 16px;
+  padding: 20px 24px;
+}
+.inputinput {
+  /* background-color: rgb(37, 37, 37); */
+  background-color: #ebf1f7;
+  border: none;
+  /* border: 0px; */
+  border-radius: 8px;
+}
+.inputinput:focus {
+  background-color: #ebf1f7;
+  color: rgb(37, 37, 37);
+  border: none;
+  /* border: 0px; */
+  /* color: #fff; */
+}
+.btn {
+  color: #ffffff;
+  background-color: #2787f4;
+  padding: 14px 18px;
+  font-size: 1.3rem;
+  border-radius: 0.6rem;
+}
+.col-121 {
+  /* margin: 16px 0px 0px;
+  padding: 0px 12px; */
+  margin-top: 1rem;
+}

@@ -1,0 +1,44 @@
+/* Popup style */
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  /* background:"#d4edda"; */
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 6;
+}
+ 
+.boxs {
+  position: relative;
+  width: 32.5vw;
+  margin: 0 auto;
+  height: 10vh;
+  text-align: center;
+  max-height: 8vh;
+  margin-top: calc(100vh - 4vh );
+  background: #fff;
+  border-radius: 15px;
+  padding: 10px;
+  border: 1px solid #999;
+  overflow: hidden;
+  background-color: #d4edda !important;
+  color:#155724 !important;
+}
+ 
+.close-icons {
+  content: 'x';
+  cursor: pointer;
+  position: fixed;
+  right: calc(35.4% );
+  top: calc(100vh - 65vh );
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}

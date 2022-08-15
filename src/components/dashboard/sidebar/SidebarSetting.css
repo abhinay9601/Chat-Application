@@ -1,0 +1,6 @@
+.scrollbars::-webkit-scrollbar {
+  display: none;
+}
+a::after{
+  border:"0px";
+}

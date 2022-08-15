@@ -1,0 +1,48 @@
+.home path{
+stroke:"#fFF";
+}
+.margin{
+  margin:5vh 0;
+}
+.width{
+  height: 80px;
+}
+@media screen and (max-width:1200px){
+.navigatio{
+  position: relative;
+ right:-43vw;
+ bottom: -42.5vh;
+ /* transform: rotate(90deg); */
+ /* left: -10vw; */
+ flex-grow: 0 !important;
+ justify-content:center !important;
+ display: flex;
+height: 100vw;
+ width: 100vw;
+ z-index: 6;
+ background-color: #fff;
+ /* max-width: 100vw !important; */
+}
+.absolute{
+  position: absolute !important;
+}
+.ulfix{
+  transform: rotate(-90deg);
+ flex-grow: 0 !important;
+
+/* position: static; */
+max-width: 100vw;  
+display: flex;
+  flex-direction: column-reverse;
+  background-color: #fff  !important;
+}
+.alitem{
+  transform: rotate(90deg);
+  width:50px;
+  position: static;
+  
+}
+.width{
+  height:25vw;
+}
+}

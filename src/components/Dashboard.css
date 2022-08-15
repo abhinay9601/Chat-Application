@@ -1,0 +1,11 @@
+.d-flex{
+  /* display: flex; */
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.layout{
+  display: flex;
+  max-width: 100%;
+}

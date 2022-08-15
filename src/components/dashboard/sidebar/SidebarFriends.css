@@ -1,0 +1,15 @@
+.body {
+  background-color: #95aac9;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  .fullwidth {
+    width: 100vw !important;
+    margin: 0;
+  }
+  .setw{
+      width: 86vw !important;
+  }
+}
